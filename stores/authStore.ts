@@ -17,6 +17,7 @@ export const useMyAuthStoreStore = defineStore({
       this.authorized = true;
       navigateTo("/hello");
     },
+
     logoutUser() {
       this.authorized = false;
       this.niceTry = "";
